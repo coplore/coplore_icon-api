@@ -29,7 +29,7 @@ jobs:
               env:
                 - name: NODE_ENV
                   value: production
-              ports: 3000
+              ports: 3065
               install: npm ci
               build: npm run build
               start: npm start
