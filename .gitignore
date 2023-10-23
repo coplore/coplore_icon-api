@@ -1,35 +1,17 @@
-# compiled output
-/dist
-/node_modules
+# Ignore node_modules directory
+**/node_modules
 
-# Logs
-logs
-*.log
-npm-debug.log*
-pnpm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
+# Ignore build directories
+**/build
+**/dist
 
-# OS
-.DS_Store
+# Ignore editor files and directories
+**/.vscode/
+**/.idea/
+**/*.log
 
-# Tests
-/coverage
-/.nyc_output
+# Ignore package-lock.json files
+**/package-lock.json
 
-# IDEs and editors
-/.idea
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+# Ignore .DS_Store files
+**/.DS_Store
