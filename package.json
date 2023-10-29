@@ -49,17 +49,20 @@
 		"test:cov": "jest --coverage",
 		"test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
 		"test:e2e": "jest --config ./test/jest-e2e.json",
-		"commit": "npx git-cz",
+		"commit": "pnpm git-cz",
 		"prepare": "husky install",
 		"husky:permission": "chmod +x .husky/*"
 	},
 	"dependencies": {
+		"-": "^0.0.1",
 		"@nestjs/common": "^9.0.0",
 		"@nestjs/core": "^9.0.0",
 		"@nestjs/platform-express": "^9.0.0",
 		"cors": "^2.8.5",
+		"g": "^2.0.1",
 		"reflect-metadata": "^0.1.13",
-		"rxjs": "^7.2.0"
+		"rxjs": "^7.2.0",
+		"vercel": "^32.5.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^18.0.0",
