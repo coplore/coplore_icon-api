@@ -6,6 +6,14 @@
 
 > bitcoin icon을 제공하는 API 입니다.
 
+<p>
+	<img src="https://coplore-icon-api.vercel.app/api/icons/BTC" alt="BTC" width="50" />
+	<img src="https://coplore-icon-api.vercel.app/api/icons/ETH" alt="ETH" width="50" />
+	<img src="https://coplore-icon-api.vercel.app/api/icons/ETC" alt="ETC" width="50" />
+	<img src="https://coplore-icon-api.vercel.app/api/icons/XRP" alt="XRP" width="50" />
+	<img src="https://coplore-icon-api.vercel.app/api/icons/BCH" alt="BCH" width="50" />
+</p>
+
 <br />
 
 ## Examples
