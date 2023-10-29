@@ -12,10 +12,69 @@
     href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" />
   <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
 </head>
 
 <body>
-  test
+  <div class="container">
+    <a href="https://github.com/coplore/coplore_icon-api" target="_blank" rel="noreferrer noopener">
+      <img class="github-icon" src="./github.svg" alt="github-icon" />
+    </a>
+
+    <!-- Header Section -->
+    <section class="section header-section">
+      <h1 class="title">Coplore Icons API</h1>
+      <span class="text">bitcoin icon을 제공하는 API 입니다.</span>
+      <div class="header-section__icons">
+        <img src="https://coplore-icon-api.vercel.app/api/icons/BTC" alt="BTC" width="50" />
+        <img src="https://coplore-icon-api.vercel.app/api/icons/ETH" alt="ETH" width="50" />
+        <img src="https://coplore-icon-api.vercel.app/api/icons/ETC" alt="ETC" width="50" />
+        <img src="https://coplore-icon-api.vercel.app/api/icons/XRP" alt="XRP" width="50" />
+        <img src="https://coplore-icon-api.vercel.app/api/icons/BCH" alt="BCH" width="50" />
+      </div>
+    </section>
+
+    <!-- Examples Section -->
+    <section class="section">
+      <h2 class="sub-title">Examples</h2>
+      <span class="text">
+        이미지를 불러올 비트코인의 약어를 이용해 이미지를 불러옵니다.
+        <br />
+        (대소문자 구별하지 않습니다.)
+      </span>
+      <br />
+      <ul>
+        <li>
+          <a href=" https://coplore-icon-api.vercel.app/api/icons/btc" target="_blank" rel="noreferrer noopener">
+            https://coplore-icon-api.vercel.app/api/icons/btc
+          </a>
+        </li>
+        <li>
+          <a href="https://coplore-icon-api.vercel.app/api/icons/ETC" target="_blank" rel="noreferrer noopener">
+            https://coplore-icon-api.vercel.app/api/icons/ETC
+          </a>
+        </li>
+        <li>
+          <a href="https://coplore-icon-api.vercel.app/api/icons/eth" target="_blank" rel="noreferrer noopener">
+            https://coplore-icon-api.vercel.app/api/icons/eth
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- License Section -->
+    <section class="section">
+      <h2 class="sub-title">License</h2>
+      <span class="text text--license">
+        This project is licensed under the MIT License - see the
+        <a href="https://github.com/coplore/coplore_icon-api/blob/main/LICENSE" target="_blank"
+          rel="noreferrer noopener">
+          LICENSE.md
+        </a>
+        file for details
+      </span>
+    </section>
+  </div>
 </body>
 
 </html>
